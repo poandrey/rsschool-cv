@@ -1,13 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
     <link rel="stylesheet" href="style.css">
-    <title>Doc</title>
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    
+    <header class="header">
+
+        <nav class="nav container">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#contacts" class="nav-link">Contacts</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#summary" class="nav-link">Summary</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#code" class="nav-link">Code</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#work" class="nav-link">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <main class="main">
+        <div class="container  main-container">
+            <section class="section-profile">
+                <img class="profile-img" src="./assets/img/beluga.webp" alt="it's me ">
+                <div class="profile">
+                    <h2 class="profile-title">PO Andrey</h2>
+                    <h1 class="profile-subtitle">Junior front-end beginner</h1>
+                </div>
+            </section>
+
+            <section class="section-contact" id="contacts">
+                <h3>Contacts</h3>
+                <ul class="contacts-list">
+                    <li class="contacts-item">Nikolaev, Ukraine</li>
+                    <li class="contacts-item">Email: <a href="mailto:beluga@gamil.com">beluga@gamil.com</a></li>
+                    <li class="contacts-item">Github: <a href="https://github.com/poandrey">poandrey</a></li>
+                    <li class="contacts-item">Telegram: <a href="rambler.ru">@beluga</a></li>
+                    <li class="contacts-item">Discord: vataman#5559 <a href=""></a></li>
+                </ul>
+            </section>
+            <section class="section-summary" id="summary">
+                <h3>Summary</h3>
+                <p>I don't know what now to write, so let it be LOREM Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit. Magnam assumenda sequi, enim fugiat voluptatem, cum libero sit, sapiente saepe
+                    quis laborum magni amet. Aliquid vitae ex enim cum error soluta doloribus aliquam iste deleniti! Ad
+                    sed tenetur inventore libero architecto!</p>
+            </section>
+
+            <section class="section-skills" id="skills">
+                <h3>Skills</h3>
+                <ul class="skills-list">
+                    <li class="skills-item">
+                        HTML
+                    </li>
+                    <li class="skills-item">
+                        CSS3
+                    </li>
+                    <li class="skills-item">
+                        JavaScript
+                    </li>
+
+                </ul>
+            </section>
+
+            <section class="section-code" id="code">
+                <h3>Code</h3>
+                <code>
+                  .main-container{ <br>
+                    display: flex; <br>
+                    flex-wrap: wrap;<br>
+                }<br>
+                <br>
+                section{<br>
+                    width: calc(50% - 20px);<br>
+                    border-bottom: 2px solid #ccc;<br>
+                    padding: 20px;<br>
+                    margin: 10px;<br>
+                }<br>
+                
+                .section-profile{<br>
+                    width: 100%;<br>
+                }<br>
+                
+                ul> li {<br>
+                    margin:20px 0 ;<br>
+                }</code>
+            </section>
+
+            <section class="section-work" id="work">
+                <h3>Work</h3>
+                <p>Was own fast-food but now it's over :(</p>
+            </section>
+            <section class="section-education" id="education">
+                <h3>Education</h3>
+                <p>NKI Ship institute</p>
+            </section>
+            <section class="section-english" id="english">
+                <h3>English</h3>
+                <p>I hope, i have A1 :)</p>
+            </section>
+            <section class="section-projects" id="projects">
+                <h3>Projects</h3>
+                <p>My CV</p>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <p>@ &nbsp2022 <span class="footer-span"><a href="#" class="footer-link">githab</a></span></p>
+
+                <span>
+                    <a href="https://rs.school/" class="footer-link ">
+                        <img class="rs-school" src="./assets/img/logo-rs.svg" alt="RS-School"></a>
+                </span>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
